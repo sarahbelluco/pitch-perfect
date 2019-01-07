@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PitchPerfect
 //
-//  Created by Família on 05/01/19.
+//  Created by Sarah on 05/01/19.
 //  Copyright © 2019 Belluco. All rights reserved.
 //
 
@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 
