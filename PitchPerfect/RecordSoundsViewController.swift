@@ -21,7 +21,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stopRecordingButton.isEnabled = false
+        setupAllAudioButtons()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -76,8 +76,8 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
         try! audioSession.setActive(false)
     }
     
-    private func configureUI(_ playState: RecordingState) {
-        switch(playState) {
+    private func configureUI(_ recordingState: RecordingState) {
+        switch(recordingState) {
         case .recording:
             recordingLabel.text = "Recording in Progress"
         case .notRecording:
@@ -96,6 +96,18 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     // Inverte o estado de disponibilidade do botão
     private func toggleButtonState(button: UIButton) {
         button.isEnabled = !button.isEnabled
+    }
+    
+    // Configura todos os botões de áudio
+    private func setupAllAudioButtons() {
+        [recordButton, stopRecordingButton].forEach { (button: UIButton?) in setupAudioButton(button: button!) }
+        stopRecordingButton.isEnabled = false
+    }
+    
+    // Configura um botão de áudio
+    private func setupAudioButton(button: UIButton) {
+        // Altera o modo de apresentação da imagem do botão para evitar que ao mudar para o modo paisagem os botões não fiquem achatados
+        button.imageView!.contentMode = .scaleAspectFit
     }
     
 }
