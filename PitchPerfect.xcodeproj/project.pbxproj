@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE3A36F921E64C2E00EF636C /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A36F821E64C2D00EF636C /* PlaySoundsViewController+Audio.swift */; };
 		EE3C2E2B21E1277C003EAB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C2E2A21E1277C003EAB16 /* AppDelegate.swift */; };
 		EE3C2E2D21E1277C003EAB16 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C2E2C21E1277C003EAB16 /* RecordSoundsViewController.swift */; };
 		EE3C2E3021E1277C003EAB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C2E2E21E1277C003EAB16 /* Main.storyboard */; };
 		EE3C2E3521E1278A003EAB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE3C2E3321E1278A003EAB16 /* LaunchScreen.storyboard */; };
 		EE3C2E3D21E1860D003EAB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3C2E3C21E1860D003EAB16 /* Assets.xcassets */; };
 		EE3C2E3F21E26696003EAB16 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3C2E3E21E26696003EAB16 /* PlaySoundsViewController.swift */; };
-		EE78072521E4BDDD006EE7FD /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE78072421E4BDDD006EE7FD /* PlaySoundsViewController+Audio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE3A36F821E64C2D00EF636C /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		EE3C2E2721E1277C003EAB16 /* PitchPerfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE3C2E2A21E1277C003EAB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE3C2E2C21E1277C003EAB16 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		EE3C2E3621E1278A003EAB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE3C2E3C21E1860D003EAB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE3C2E3E21E26696003EAB16 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
-		EE78072421E4BDDD006EE7FD /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "PlaySoundsViewController+Audio.swift"; path = "/Users/belluco/Development/SwiftProjects/PitchPerfect/PitchPerfect/PlaySoundsViewController+Audio.swift"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 		EE3C2E2921E1277C003EAB16 /* PitchPerfect */ = {
 			isa = PBXGroup;
 			children = (
-				EE78072421E4BDDD006EE7FD /* PlaySoundsViewController+Audio.swift */,
+				EE3A36F821E64C2D00EF636C /* PlaySoundsViewController+Audio.swift */,
 				EE3C2E3E21E26696003EAB16 /* PlaySoundsViewController.swift */,
 				EE3C2E3C21E1860D003EAB16 /* Assets.xcassets */,
 				EE3C2E2A21E1277C003EAB16 /* AppDelegate.swift */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3C2E2D21E1277C003EAB16 /* RecordSoundsViewController.swift in Sources */,
-				EE78072521E4BDDD006EE7FD /* PlaySoundsViewController+Audio.swift in Sources */,
+				EE3A36F921E64C2E00EF636C /* PlaySoundsViewController+Audio.swift in Sources */,
 				EE3C2E3F21E26696003EAB16 /* PlaySoundsViewController.swift in Sources */,
 				EE3C2E2B21E1277C003EAB16 /* AppDelegate.swift in Sources */,
 			);
